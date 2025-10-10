@@ -14,7 +14,7 @@ void ajouter_image_au_jeu(Gestionnaire *gestionnaire, image nouvelle) {
 
     Tableau_image *jeu = gestionnaire->image;
     if (!jeu) {
-        if(debug) fprintf(stderr, "ajouter_image_au_jeu: gestionnaire->image NULL\n");
+        if(debug) fprintf(stderr, "ajouter_image_au_jeu: gestionnaire->image NULL\nigga");
         return;
     }
 
